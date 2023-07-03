@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+      </style>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/fbe915a9a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/images/icon.png" class="logo"> -->
+                <h1>Let me Introduce <span style="color: #ff004f ;">my</span>Self</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Skills</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Finance Finatic</p>
+                <h1>Hi, I'm  <span>Kanal</span><br>Trivedi From IIMP </h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------about------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="kanal pp.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Why I should be selected as President ?</h1>
+                    <p>
+                      <span>1. Experienced in organising Events.</span><br>  
+                        <span>2. Better Connect with the Students.</span><br>
+                        <span>3. Quick and Effective Decision maker.</span><br>
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achivements')">Achivements</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                        <li><span>Expertise in Portfolio management</span></li>
+                        <li><span>Proficient knowledge of financial markets. </span></li>
+                        <li><span>Extensive Understanding of Investment Vehicles.</span></li>
+                        <li><span>Good with Excel and Presentations.</span></li>
+                        <li><span>Strong Grasp of Financial Modelling Techniques.</span></li>
+                        <li><span>Better Conviencing and Public skills.</span></li>
+                       </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                       <ul>
+                        <li><span>B.B.A</span><br>
+                            Shiv Chhatrapati college, Aurangabad <br>2018-2021 - 83.3%
+                        </li>
+                        <li><span>HSC</span><br>
+                            Shiv Chhatrapati College, Aurangabad<br>2018 - 65.69%
+                        </li>
+                        <li><span>SSC</span><br>
+                            Saint Xavier's school, Aurangabad <br>2016 - 84.40% </li>
+                       </ul>
+                    </div>
+                    <!-- //Achievements -->
+
+                    <div class="tab-contents" id="achivements">
+                        <ul>
+                         <li><span>2019</span><br>
+                            First Runner up National Level PPT Presentation on Innovative Ideas NLPC <br>
+                         </li>
+                         <li><span>2019</span><br>
+                            Secured Third place at State Level Research Paper Presentation Competition <br>
+                         </li>
+                         <li><span>2020</span><br>
+                             Won console prize in National Level PPT Presentation on Innovative Ideas <br></li>
+                        </ul>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------Projects----------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Events organised</h1> 
+            <div class="work-list">
+                <div class="work" >
+                    <img src="abhiv.jpeg" >
+                    <div class="layer">
+                        <h3>Abhivyakti </h3>
+                        <p>I organized the Abhivyakti event, which is a 
+                            significant event in our college. Every Saturday, myself and seven others 
+                            worked together to ensure its success. </p>
+                        <!-- <a href="https://portfolio-website-28.w3spaces.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work" >
+                    <img src="ann d.jpeg" >
+                    <div class="layer">
+                        <h3>Annual Day</h3>
+                        <p>Organized Indira Annual Day, I along with 12 other students work day in & out to make this event a grand success and I was the overall incharge for this Mega Event. </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work" >
+                    <img src="cr.jpeg" >
+                    <div class="layer">
+                        <h3>Class Representative</h3>
+                        <p>Was CR in first semester and throughout my tenure I participated and organised several activities.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------------------------Contact---------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>kanal.trivedi22@indiraiimp.edu.in</p>
+                    <p><i class="fa-solid fa-phone"></i>7057999252</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="__CV__.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+//---------------------about Me----------------------------
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+// console.log("tablinks",tablinks.classList)
+// console.log("tabcontents",tabcontents.classList)
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            //for colour
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+       
+
+
+    </script>
+    <!-- //Contact form google sheet -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwM2IciiBf83ykYG9T9eU0gQMPMChUH8qCj2gbZz1kW80BSDDSdl3CJM6WzYO9ydzo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+</html>
